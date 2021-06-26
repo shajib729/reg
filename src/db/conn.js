@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
-mongoose.connect("mongodb://localhost:27017/regform", {
+
+mongoose.connect("mongodb+srv://shajib:shajib786@cluster0.emb7s.mongodb.net/regform", {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology:true,
